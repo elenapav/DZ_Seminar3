@@ -6,7 +6,7 @@
 
 void Palindrom(int num)
 {
-        if ((num / 10000) == (num % 10) && ((num / 1000) % 10 == (num % 100) / 10))
+    if ((num / 10000) == (num % 10) && ((num / 1000) % 10 == (num % 100) / 10))
 
         Console.WriteLine("Число - палиндром");
     else
